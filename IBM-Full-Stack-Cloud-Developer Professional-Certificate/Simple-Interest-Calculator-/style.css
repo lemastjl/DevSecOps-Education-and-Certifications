@@ -1,0 +1,24 @@
+body {
+    background-color: black;
+    font-family: arial; 
+    color: white;
+}
+h1 {
+    color: grey; 
+    font-family: verdana;
+    text-align: center;
+}
+.mainDiv {
+    background-color: white;
+    color: black;
+/*Instructed to use 300px but 500px looks more like example */ 
+    width: 500px;
+    padding: 20px;
+    border-radius: 25px;
+    margin: auto; 
+    text-align: auto;
+}
+.inputDiv {
+    padding: 0px 100px;
+}
+
