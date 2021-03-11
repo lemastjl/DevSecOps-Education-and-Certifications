@@ -1,0 +1,5 @@
+---
+applications:
+ - name: theMaster
+   random-route: true
+   memory: 256M
