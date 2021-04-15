@@ -27,7 +27,7 @@ while player_wins < winning_score and computer_wins < winning_score:
         if comp_choice == 'Rock' or comp_choice == 'Paper' or comp_choice == 'Scissors':
             lose_statement = f'{comp_choice} beats {user_choice}.\n \nYou have lost the round!'
             win_statement = f'{user_choice} beats {comp_choice}.\n \nYou have won the round!'
-            tie_statement = f'{user_choice} is equal to {comp_choice}.\nIt\'s a tie!'
+            tie_statement = f'{user_choice} is equal to {comp_choice}.\n \nIt\'s a tie!'
             if user_choice == comp_choice:
                 print(tie_statement)
             elif user_choice == 'Rock':
