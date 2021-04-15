@@ -8,7 +8,7 @@ print('Please enter a winning rounds score:\n')
 winning_score = int(input())
 while player_wins < winning_score and computer_wins < winning_score:
     print(f'\nPlayer Score: {player_wins} Computer Score: {computer_wins}\n')
-    print('Please enter a choice below: Rock, Paper, or Scissors\n')
+    print('Please enter a choice below: Rock, Paper, or Scissors...\n')
     user_choice = input()
     user_choice = str(user_choice.capitalize())
     print(f'\nPlayer chooses "{user_choice}".\n')
