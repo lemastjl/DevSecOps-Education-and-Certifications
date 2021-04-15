@@ -1,9 +1,9 @@
 
 
-for i in range(1,21):
-    if i == 4 or i == 13:
-        print(f'{i} is unlucky')
+for num in range(1,21):
+    if num == 4 or num == 13:
+        print(f'{num} is unlucky')
     elif i % 2 == 0:
-        print(f'{i} is even')
+        print(f'{num} is even')
     else:
-        print(f'{i} is odd')
+        print(f'{num} is odd')
