@@ -13,4 +13,4 @@ while msg != 'bananas':
     msg = input('What\'s the secret password?')
 print('CORRECT!')
 
-for i in range(1,10)
+for i in range(1,10):
